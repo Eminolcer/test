@@ -8,7 +8,7 @@ import "@fontsource/inter/600.css";
 import salonInterior from "@/assets/salon-interior.jpg";
 import hairTexture from "@/assets/hair-texture.jpg";
 import ceramicStill from "@/assets/ceramic-still.jpg";
-import whatsappVideoHero from "@/assets/whatsapp-video-hero.mp4.asset.json";
+import whatsappVideoHero from "@/assets/WhatsApp Video 2026-06-23 at 20.00.03.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -138,7 +138,7 @@ function Video() {
     <section className="mx-auto max-w-7xl px-6 py-12">
       <div className="overflow-hidden rounded-2xl bg-sand/50 ring-1 ring-black/5">
         <video
-          src={whatsappVideoHero.url}
+          src={whatsappVideoHero}
           poster={salonInterior}
           controls
           autoPlay
